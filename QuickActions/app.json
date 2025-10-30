@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Meu App",
+    "slug": "meuApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./images/icon.png",
+    "splash": {
+      "image": "./images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": { "supportsTablet": true },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./images/icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "plugins": ["expo-quick-actions"]
+  }
+}
